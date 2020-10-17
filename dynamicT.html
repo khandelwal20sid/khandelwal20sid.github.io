@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-Dynamic Table</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0ac55c585b.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- nav bar -->
+    <nav class="navbar bg-white navbar-expand-sm fixed-top ">
+        <div class="container my-2">
+            <a href="/" class="navbar-brand text-dark font-weight-bold">
+                <img src="images\logo.JPG" alt="logo" width="85px"></a>
+                <a href="contact.html" class="btn btn-outline-info  ml-auto mx-3" role="button" aria-disabled="true">Contact me</a> 
+                <button class="navbar-toggler"
+                            data-toggle = "collapse"
+                            data-target = "#collapseNav"                
+                    >
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse flex-grow-0" id="collapseNav">
+                        <div class="navbar-nav">
+                            <a href="index.html" class="nav-item nav-link text-dark h6 my-auto">Home</a>
+                        </div>
+                    </div>                         
+        </div>       
+    </nav>
+
+<!-- heading -->
+<div class=" py-3">
+</div>
+<div class="container text-center mt-5 mb-3">
+    <h1 class="font-weight-light"><span class="text-info">Dynamic </span>Table</h1>
+</div>
+
+
+<!-- project -->
+<div class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+                <div class="card text-center shadow">
+                    <img class="card-img-top" src="images\dynamicT.png" alt="project-pic">
+                    <div class="card-footer">
+                        <p>Dynamic Table</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6  text-justify">
+                <p>
+                    This project was the part of my learnings. During the cource of javascrpt, I tried this page
+                    and successfully implemented the logics.
+                </p>
+                <p>
+                    An empty list with an option to add entities. Click the add button and a pop-up will appear with a form in it.
+                    Fill the details and add the data, your data will apear on the table. I used local storage to store the added data, so that it stays even 
+                    when the page reloads. There are two buttons for each data entity, delete and edit. Delete will erase
+                    the entity and update will pop-up another form to fill and update.
+                    Search field will get you to your desired data.
+                    
+                </p>
+                <a href="https://github.com/khandelwal20sid/DynamicTable">
+                Know more...</a>
+            </div>
+        </div>
+</div>
+
+</body>
+</html>
